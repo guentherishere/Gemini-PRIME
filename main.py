@@ -1,11 +1,7 @@
 import google.generativeai as genai
 import creds
 
-"""
-At the command line, only need to run once to install the package via pip:
-
-$ pip install google-generativeai
-"""
+## Config below will actually be a prompt
 
 genai.configure(api_key=creds.api_key)
 
